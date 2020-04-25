@@ -9,6 +9,10 @@ export const bookReducer = (state, action) => {
           title: action.book.title,
           author: action.book.author,
           id: uuid()
+
+
+
+          
         }
       ];
     case "REMOVE_BOOK":
